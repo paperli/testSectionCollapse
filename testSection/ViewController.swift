@@ -82,5 +82,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func random_number() -> CGFloat{
         return CGFloat(Float(arc4random()) / Float(UINT32_MAX))
     }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
 }
 

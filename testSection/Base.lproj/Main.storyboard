@@ -25,7 +25,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="182" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gW6-4Y-N2W">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="top_row" id="Gu2-FK-mYy">
@@ -104,7 +104,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gW6-4Y-N2W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="0gJ-zs-41r"/>
+                            <constraint firstItem="gW6-4Y-N2W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0gJ-zs-41r"/>
                             <constraint firstItem="gW6-4Y-N2W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1hg-0L-L5b"/>
                             <constraint firstItem="Td0-gG-ePC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2KF-Sm-Aw7"/>
                             <constraint firstAttribute="trailing" secondItem="gW6-4Y-N2W" secondAttribute="trailing" id="NqU-D8-uGS"/>
